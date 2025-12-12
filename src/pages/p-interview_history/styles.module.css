@@ -1,0 +1,69 @@
+
+
+.pageWrapper {
+  background-color: #F9FAFB;
+}
+
+.sidebarCollapsed {
+  width: 56px;
+}
+
+.sidebarExpanded {
+  width: 240px;
+}
+
+.mainContentExpanded {
+  margin-left: 240px;
+}
+
+.mainContentCollapsed {
+  margin-left: 56px;
+}
+
+.navItemActive {
+  background-color: #EBF8FF;
+  color: #3B82F6;
+  border-right: 3px solid #3B82F6;
+}
+
+.navItem:hover {
+  background-color: #F3F4F6;
+  color: #3B82F6;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.tableRow:hover {
+  background-color: #F9FAFB;
+}
+
+.filterSelect:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.statusCompleted {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+.statusInterrupted {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.statusEvaluated {
+  background-color: #DBEAFE;
+  color: #1E40AF;
+}
+
+.statusPending {
+  background-color: #F3F4F6;
+  color: #6B7280;
+}
+

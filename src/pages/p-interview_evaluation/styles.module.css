@@ -1,0 +1,79 @@
+
+
+.pageWrapper {
+  background-color: #F9FAFB;
+}
+
+.sidebarCollapsed {
+  width: 56px;
+}
+
+.sidebarExpanded {
+  width: 240px;
+}
+
+.mainContentExpanded {
+  margin-left: 240px;
+}
+
+.mainContentCollapsed {
+  margin-left: 56px;
+}
+
+.navItemActive {
+  background-color: #EBF8FF;
+  color: #3B82F6;
+  border-right: 3px solid #3B82F6;
+}
+
+.navItem:hover {
+  background-color: #F3F4F6;
+  color: #3B82F6;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.starRating {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  color: #D1D5DB;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.star.active {
+  color: #F59E0B;
+}
+
+.star:hover {
+  color: #F59E0B;
+}
+
+.progressBar {
+  background: linear-gradient(90deg, #3B82F6 0%, #10B981 100%);
+  height: 8px;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.videoContainer {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.videoPlayer {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  background: #000;
+}
+

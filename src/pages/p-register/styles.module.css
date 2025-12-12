@@ -1,0 +1,49 @@
+
+
+.pageWrapper {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.registerCard {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.inputGroup {
+  position: relative;
+}
+
+.passwordToggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #6B7280;
+}
+
+.passwordToggle:hover {
+  color: #3B82F6;
+}
+
+.tabActive {
+  background-color: #3B82F6;
+  color: white;
+}
+
+.tabInactive {
+  background-color: #F3F4F6;
+  color: #6B7280;
+}
+
+.tabInactive:hover {
+  background-color: #E5E7EB;
+}
+

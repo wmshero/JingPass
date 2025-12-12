@@ -1,0 +1,83 @@
+
+
+.pageWrapper {
+  background-color: #F9FAFB;
+}
+
+.sidebarCollapsed {
+  width: 56px;
+}
+
+.sidebarExpanded {
+  width: 240px;
+}
+
+.mainContentExpanded {
+  margin-left: 240px;
+}
+
+.mainContentCollapsed {
+  margin-left: 56px;
+}
+
+.navItemActive {
+  background-color: #EBF8FF;
+  color: #3B82F6;
+  border-right: 3px solid #3B82F6;
+}
+
+.navItem:hover {
+  background-color: #F3F4F6;
+  color: #3B82F6;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.radioOption {
+  transition: all 0.2s ease-in-out;
+}
+
+.radioOption:hover {
+  background-color: #F9FAFB;
+}
+
+.radioOption.selected {
+  background-color: #EBF8FF;
+  border-color: #3B82F6;
+  color: #3B82F6;
+}
+
+.cameraPreview {
+  width: 200px;
+  height: 150px;
+  background-color: #1F2937;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cameraPreview.active {
+  background-color: #10B981;
+}
+
+.cameraPreview video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

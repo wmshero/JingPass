@@ -1,0 +1,99 @@
+
+
+.pageWrapper {
+  background-color: #F9FAFB;
+}
+
+.sidebarCollapsed {
+  width: 56px;
+}
+
+.sidebarExpanded {
+  width: 240px;
+}
+
+.mainContentExpanded {
+  margin-left: 240px;
+}
+
+.mainContentCollapsed {
+  margin-left: 56px;
+}
+
+.navItemActive {
+  background-color: #EBF8FF;
+  color: #3B82F6;
+  border-right: 3px solid #3B82F6;
+}
+
+.navItem:hover {
+  background-color: #F3F4F6;
+  color: #3B82F6;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.videoContainer {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.videoPlayer {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.articleContent {
+  line-height: 1.8;
+  color: #374151;
+}
+
+.articleContent h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.articleContent h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 1.25rem 0 0.75rem 0;
+}
+
+.articleContent p {
+  margin: 1rem 0;
+}
+
+.articleContent ul, .articleContent ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.articleContent li {
+  margin: 0.5rem 0;
+}
+
+.articleContent blockquote {
+  border-left: 4px solid #3B82F6;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #6B7280;
+  font-style: italic;
+}
+
+.relatedContentItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
